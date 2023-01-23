@@ -6,7 +6,7 @@ import "./About.css";
 
 const AboutSection= () => {
   return (
-    <div className='about'
+    <div className='about' id='about_anchor' 
     style={{ backgroundImage: `url(${RotateSpace})` }}>
         <img id="astronaut" alt="astronaut" src= {Astronaut}/>
         <img id="planet" alt="planet"  src={Moon}/>
@@ -20,4 +20,3 @@ const AboutSection= () => {
 
 export default AboutSection;
 
-//className="about h-screen w-screen bg-center bg-no-repeat bg-cover" 

@@ -12,7 +12,6 @@ const Timeline = () => {
       <div class="timeline-line"></div>
       <div class="panel timeline" id="timeline_anchor">
             <div class="timeline-header"><h1><span data-aos="fade-right">TIME</span><span data-aos="fade-left">LINE</span></h1></div>
-            <div class="timeline-header-mob"><h1>TIMELINE</h1></div>
             <div class="timeline-container">
                 <section class="card" data-aos="fade-right">
                     <div class="book">
