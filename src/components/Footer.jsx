@@ -14,7 +14,7 @@ const Footer = () => {
               <li><a href="./goodies/">Sponsors</a></li>
           </ul>
             
-            <p>Reach us at : <a href="mailto:gdsc.djsce@gmail.com">gdsc.djsce@gmail.com</a></p>
+            <p>Reach us at : <a href="mailto:help.hackniche@gmail.com">help.hackniche@gmail.com</a></p>
             <ul className="socials">
                 
                 
