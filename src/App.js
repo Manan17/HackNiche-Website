@@ -4,7 +4,7 @@ import AboutSection from "./components/About";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import Prices from "./components/Prices";
+import Prizes from "./components/Prizes";
 import Domains from "./components/Domains";
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <HeroSection isMenuShown={isMenuShown} />
       <AboutSection />
       <Timeline />
-      <Prices />
+      <Prizes />
       <Domains />
       <Footer/>
       <NavBar />

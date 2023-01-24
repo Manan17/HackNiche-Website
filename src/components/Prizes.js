@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Prices.css"
+import "./Prizes.css"
 const Prices = () => {
     return (
-        <div>
-            <h1 className="title">Prices</h1>
+        <div id="timeline_anchor">
+            <h1 className="title">Prizes</h1>
             <div className="container">
 
                 <div className="p-card">
