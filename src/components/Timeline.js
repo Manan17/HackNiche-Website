@@ -9,28 +9,59 @@ const Timeline = () => {
       }, [])
   return (
     <div className='hntl'>
-      <div class="timeline-line"></div>
+      
       <div class="panel timeline" id="timeline_anchor">
             <div class="timeline-header"><h1><span data-aos="fade-right">TIME</span><span data-aos="fade-left">LINE</span></h1></div>
             <div class="timeline-container">
+            <section class="card" data-aos="fade-left">
+                    <div class="book">
+                        <div class="first">
+                          <div class="front day2-card">
+                            <h1>12th Feb</h1>
+                          </div>
+                          <div class="back">
+                            <h1><b>12th Feb</b></h1>
+                            <p>Hackniche is a 24-hour hackathon taking place in DJ Sanghvi College of Engineering, Mumbai on the 17th and 18th of February.</p>
+                            
+                          </div>
+                        </div>
+                        <div class="second">
+                            <div> <p><b>Registration Deadline to submit resumes.</b></p>
+                                 </div>
+                                {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                        </div>
+                      </div>
+                    
+              
+                    <div>
+                      
+                    </div>
+                
+
+                </section>
+                <section class="card-mob">
+                <div class="second">
+                            <div> <p><b>Registration Deadline to submit resumes.</b></p>
+                                 </div>
+                                {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                        </div>
+                  
+
+                </section>
                 <section class="card" data-aos="fade-right">
                     <div class="book">
                         <div class="first">
                           <div class="front day1-card">
-                            <h1>DAY 1</h1>
+                            <h1>15th Feb</h1>
                           </div>
                           <div class="back">
-                            <h1>Day 1</h1>
-                            <p>We kick off the event with an exciting fashion show, after which we crown our Mr and Ms Essence. Later at night, rack your brains as you hunt for treasure.</p> 
+                            <h1><b>15th Feb</b></h1>
+                            <p>Hackniche is a 24-hour hackathon taking place in DJ Sanghvi College of Engineering, Mumbai on the 17th and 18th of February.</p>
+                            
                           </div>
                         </div>
                         <div class="second">
-                          <div><ul>
-                            <li> <a href="#" title="Opening Ceremony"><div>Opening Ceremony</div><div>11:00AM-12:30PM</div></a> </li> 
-                          <li><a href="#" title="Fashion Show"><div>Fashion Show</div><div>1:00PM - 3:00PM</div></a></li>
-                          <li><a href="#" title="Mr and Mrs fest"><div>Mr and Ms Fest</div><div>3:00PM - 6:00PM</div></a></li>
-                          <li><a href="#" title="Treasure Hunt"><div>Treasure Hunt</div><div>7:00PM-12:30AM</div></a></li>
-                          </ul> </div>
+                          <div><p><b>Announcement of shortlisted teams for the Hackathon</b></p></div>
                           {/* <div><p>Click on an event to know more about it.</p></div>  */}
                         </div>
                       </div>
@@ -40,14 +71,11 @@ const Timeline = () => {
                 <section class="card-mob">
                  
                   <div class="second">
-                    <div><ul>
-                      <li> <a href="#" title="Opening Ceremony"><div>Opening Ceremony</div><div>11:00AM-12:30PM</div></a> </li> 
-                    <li><a href="#" title="Fashion Show"><div>Fashion Show</div><div>1:00PM - 3:00PM</div></a></li>
-                    <li><a href="#" title="Mr and Mrs fest"><div>Mr and Ms Fest</div><div>3:00PM - 6:00PM</div></a></li>
-                    <li><a href="#" title="Treasure Hunt"><div>Treasure Hunt</div><div>7:00PM-12:30AM</div></a></li>
-                    </ul> </div>
-                    {/* <div><p>Click on an event to know more about it.</p></div>  */}
-                  </div>
+                  <div class="second">
+                          <div><p><b>Announcement of shortlisted teams for the Hackathon</b></p></div>
+                          {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                        </div>
+                    </div>
                     
 
               </section>
@@ -56,19 +84,18 @@ const Timeline = () => {
                     <div class="book">
                         <div class="first">
                           <div class="front day2-card">
-                            <h1>Day 2</h1>
+                            <h1>16th Feb</h1>
                           </div>
                           <div class="back">
-                            <h1>Day 2</h1>
-                            <p>The fun continues through to the second day where you get to display all your skills, from acting to coding to gaming.</p>
+                            <h1><b>16th Feb</b></h1>
+                            <p>Hackniche is a 24-hour hackathon taking place in DJ Sanghvi College of Engineering, Mumbai on the 17th and 18th of February.</p>
                             
                           </div>
                         </div>
                         <div class="second">
-                            <div><ul><li> <a href="#" title="Naatak"><div>Naatak</div><div>11:00AM-12:30PM</div></a> </li>
-                                <li><a href="#" title="Code It"><div>Code It</div><div>1:00PM - 3:00PM</div></a></li>
-                                <li><a href="#" title="COD Qualifiers"><div>COD Qualifiers</div><div>3:00PM - 6:00PM</div></a></li>
-                                <li><a href="#" title="Chess Qualifiers"><div>Chess Qualifiers</div><div>7:00PM-12:30AM</div></a></li>
+                            <div><ul><li><div><b>6:00 PM</b></div> <div><b>PS release + form to fill for preference</b></div></li>
+                                <li><div><b>11:00PM</b></div><div><b>Close the form</b></div></li>
+                    
                                 </ul> </div>
                                 {/* <div><p>Click on an event to know more about it.</p></div>  */}
                         </div>
@@ -84,12 +111,10 @@ const Timeline = () => {
                 <section class="card-mob">
                  
                   <div class="second">
-                    <div><ul><li> <a href="#" title="Naatak"><div>Naatak</div><div>11:00AM-12:30PM</div></a> </li>
-                        <li><a href="#" title="Code It"><div>Code It</div><div>1:00PM - 3:00PM</div></a></li>
-                        <li><a href="#" title="COD Qualifiers"><div>COD Qualifiers</div><div>3:00PM - 6:00PM</div></a></li>
-                        <li><a href="#" title="Chess Qualifiers"><div>Chess Qualifiers</div><div>7:00PM-12:30AM</div></a></li>
-                        </ul> </div>
-                        {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                  <div><ul><li><div><b>6:00 PM</b></div> <div><b>PS release + form to fill for preference</b></div></li>
+                                <li><div><b>11:00PM</b></div><div><b>Close the form</b></div></li>
+                    
+                                </ul> </div>
                 </div>
                 
 
@@ -99,20 +124,21 @@ const Timeline = () => {
                     <div class="book">
                         <div class="first">
                           <div class="front day3-card">
-                            <h1>Day 3</h1>
+                            <h1>17th Feb</h1>
                           </div>
                           <div class="back">
-                            <h1>Day 3</h1>
-                            <p>Impress the crowd with your voice, or with your moves on the dance floor. Then use your big brain to get through the chess finals and valorant qualifiers.</p>
-                            
+                            <h1><b>17th Feb</b></h1>
+                            <ul><li><div>Reporting + Registration of teams at College.</div><div><b>7:30AM-8:45AM</b></div> </li>
+                                <li><div>Opening Ceremony</div><div><b>9:30AM-10:45AM</b></div></li></ul>
                           </div>
                         </div>
                         <div class="second">
                             <div>
-                              <ul><li><a href="#" title="Open Mic"><div>Open Mic</div><div>11:00AM-12:30PM</div></a> </li>
-                                <li><a href="#" title="Dance Battle"><div>Dance Battle</div><div>1:00PM-3:00PM</div></a></li>
-                                <li><a href="#" title="Chess Finals"><div>Chess Finals</div><div>3:00PM-6:00PM</div></a></li>
-                                <li><a href="#" title="Valorant Qualifiers"><div>Valo Qualifiers</div><div>7:00PM-12:30AM</div></a></li>
+                              <ul>
+                                <li><div><b>Release the PS alloted to the teams</b></div><div><b>10:00AM</b></div></li>
+                                <li><div><b>Coding Round Begins</b></div><div><b>11:00AM</b></div></li>
+                                <li><div><b>Mentoring Round 1</b></div><div><b>4:00PM</b></div></li>
+                                <li><div><b>Mentoring Round 2</b></div><div><b>11:30PM</b></div></li>
                                 </ul> </div>
                                 
                                 {/* <div><p>Click on an event to know more about it.</p></div>  */}
@@ -127,13 +153,13 @@ const Timeline = () => {
                 <section class="card-mob">
                  
                   <div class="second">
-                    <div>
-                      <ul><li> <a href="#" title="Open Mic"><div>Open Mic</div><div>11:00AM-12:30PM</div></a> </li>
-                        <li><a href="#" title="Dance Battle"><div>Dance Battle</div><div>1:00PM - 3:00PM</div></a></li>
-                        <li><a href="#" title="Chess Finals"><div>Chess Finals</div><div>3:00PM - 6:00PM</div></a></li>
-                        <li><a href="#" title="Valorant Qualifiers"><div>Valo Qualifiers</div><div>7:00PM-12:30AM</div></a></li>
-                        </ul> </div>
-                        {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                  <div >
+                              <ul>
+                                <li><div><b>Release the PS alloted to the teams</b></div><div><b>10:00AM</b></div></li>
+                                <li><div><b>Coding Round Begins</b></div><div><b>11:00AM</b></div></li>
+                                <li><div><b>Mentoring Round 1</b></div><div><b>4:00PM</b></div></li>
+                                <li><div><b>Mentoring Round 2</b></div><div><b>11:30PM</b></div></li>
+                                </ul> </div>
                 </div>
                 
 
@@ -143,19 +169,19 @@ const Timeline = () => {
                     <div class="book">
                         <div class="first">
                           <div class="front day4-card">
-                            <h1>Day 4</h1>
+                            <h1>18th Feb</h1>
                           </div>
                           <div class="back">
-                            <h1>Day 4</h1>
-                            <p>The final day sees the best gamers fight it out in the arena. Later, music groups from all over India have a battle of their own.</p>
-                           
+                            <h1><b>18th Feb</b></h1>
+                            <ul><li><div><b>Coding Round Ends</b></div><div><b>11:00AM</b></div> </li></ul>
                           </div>
                         </div>
                         <div class="second">
-                            <div><ul><li> <a href="#" title="Open Mic"><div>Open Mic</div><div>11:00AM-12:30PM</div></a> </li>
-                                <li><a href="#" title="COD Finals"><div>COD Finals</div><div>1:00PM - 3:00PM</div></a></li>
-                                <li><a href="#" title="Valorant Finals"><div>Valorant Finals</div><div>3:00PM - 6:00PM</div></a></li>
-                                <li><a href="#" title="Band Event"><div>Band Event</div><div>7:00PM-12:30AM</div></a></li>
+                            <div><ul>
+                                <li><div><b>Judging Round 1</b></div><div><b>11:30AM-1:00PM</b></div></li>
+                                <li><div><b>Round 1 Results Announced</b></div><div><b>1:30PM</b></div></li>
+                                <li><div><b>Judging Round 2</b></div><div><b>3:00PM</b></div></li>
+                                <li><div><b>Round 2 Results Announced</b></div><div><b>Closing Ceremony</b></div><div><b>5:30PM</b></div></li>
                                 </ul> </div>
                                 {/* <div><p>Click on an event to know more about it.</p></div>  */}
                         </div>
@@ -169,17 +195,17 @@ const Timeline = () => {
                 <section class="card-mob">
                  
                   <div class="second">
-                    <div><ul><li> <a href="./EventPages/openmic.html" title="Open Mic"><div>Open Mic</div><div>11:00AM-12:30PM</div></a> </li>
-                        <li><a href="./EventPages/cod.html" title="COD Finals"><div>COD Finals</div><div>1:00PM - 3:00PM</div></a></li>
-                        <li><a href="./EventPages/valofinal.html" title="Valorant Finals"><div>Valorant Finals</div><div>3:00PM - 6:00PM</div></a></li>
-                        <li><a href="./EventPages/BandEvent.html" title="Band Event"><div>Band Event</div><div>7:00PM-12:30AM</div></a></li>
-                        </ul> </div>
-                        {/* <div><p>Click on an event to know more about it.</p></div>  */}
+                  <div><ul>
+                               <li><div><b>Judging Round 1</b></div><div><b>11:30AM-1:00PM</b></div></li>
+                                <li><div><b>Round 1 Results Announced</b></div><div><b>1:30PM</b></div></li>
+                                <li><div><b>Judging Round 2</b></div><div><b>3:00PM</b></div></li>
+                                <li><div><b>Results Announced for Judging Round 2 followed by Closing Ceremony</b></div><div><b>5:30PM</b></div></li>
+                                </ul> </div>
                 </div>
                 
 
                 </section>
-                
+                <div class="timeline-line"></div>
                
             </div>
         </div>

@@ -166,8 +166,12 @@
     border: white solid 2px;
     transform: rotateY(-180deg);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: "Poppins";
+    text-align: center;
+  }
+  .back ul li{
+    padding: 0.8rem;
   }
   
   .second {
@@ -179,15 +183,18 @@
     border: white solid 6px;
     padding: 1rem;
     font-family: "Poppins";
+    
   }
   .book:hover .second {
     opacity: 1;
   }
   .second ul {
-    padding-left: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     list-style: square;
     position: absolute;
     top: 10%;
+    font-size: 1rem;
   }
   
   .second ul li {
@@ -234,3 +241,4 @@
       display: block;
     }
   }
+  
