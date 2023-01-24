@@ -40,10 +40,10 @@ nav a:hover {
     transform: scale(1.1);
 }
   
-.profile {
+/* .profile {
     opacity: 0;
     visibility: hidden;
-}
+} */
   
 .show {
     opacity: 1;
