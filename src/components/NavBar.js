@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from 'aos';  
+import 'aos/dist/aos.css';   
 import './NavBar.css';
 
 const NavBar = () => {
@@ -15,7 +15,6 @@ const NavBar = () => {
         <a title="Domain" href="#domain_anchor">Domain</a>
         <a title="Contact" href="#contact_anchor">Contact</a>
         <a title="Sponsors" href="#sponsors_anchor">Sponsors</a>
-        {/* <a title="Profile" href="./profile/" class="profile show"></a> */}
     </nav>
     )
 }

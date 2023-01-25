@@ -13,14 +13,14 @@ function App() {
 
   return (
     <div>
+      <NavBar />
       <HeroSection isMenuShown={isMenuShown} />
       <AboutSection />
       <Timeline />
       <Prizes />
       <Domains />
-      <Footer/>
-      <NavBar />
       <Sponsors />
+      <Footer/>
     </div>
   );
 }
