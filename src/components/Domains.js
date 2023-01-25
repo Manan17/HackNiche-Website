@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Domains.css"
-import { ImMobile } from "react-icons/im"
 import { TfiWorld } from "react-icons/tfi"
 import { AiFillRobot } from "react-icons/ai"
 import {SiBlockchaindotcom} from 'react-icons/si'
@@ -9,7 +8,8 @@ import {GiShakingHands} from 'react-icons/gi'
 import {GiVintageRobot} from 'react-icons/gi'
 const Domains = () => {
     return (
-        <div>
+        <div >
+            <div className="d-container" id="domain_anchor">
             <h1 className="title">Domains</h1>
             <div className="domain-container">
                 <div className="domain">
@@ -53,6 +53,7 @@ const Domains = () => {
                 </div>
                 
             </div>
+        </div>
         </div>
     )
 }

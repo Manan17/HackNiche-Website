@@ -8,6 +8,10 @@
     padding: 20px;
 }
 
+.p-container{
+    padding:40px;
+}
+
 .container{
     font-family: Inconsolata;
     background-color: rgb(0, 0, 0);

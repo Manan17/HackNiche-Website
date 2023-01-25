@@ -2,7 +2,6 @@
     
     background-color:black;
     color:white;
-    /* margin:20px; */
     display: grid;
     place-items: center;
     grid-template-columns: repeat(3,2fr);
@@ -10,7 +9,9 @@
     grid-gap: 50px;
     padding:30px;
 }
-
+.d-container{
+    padding:40px;
+}
 .domain{
     border:2px solid #5ce7ec;
     color:#5ce7ec;

@@ -2,7 +2,8 @@ import React from 'react'
 import "./Prizes.css"
 const Prices = () => {
     return (
-        <div id="timeline_anchor">
+        <div >
+            <div className="p-container" id="prizes_anchor">
             <h1 className="title">Prizes</h1>
             <div className="container">
 
@@ -22,6 +23,7 @@ const Prices = () => {
                     <div className="caption">With Internship Opportunities, Exciting Goodies & Lots More!</div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
