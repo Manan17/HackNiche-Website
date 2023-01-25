@@ -44,11 +44,11 @@
 .timeline-line {
   width: 0.3rem;
   background-color: #e0e0d8;
-  position: absolute;
+  position: inherit;
   top: 14%;
   left: 50%;
   bottom: 3%;
-  z-index: 0;
+  z-index: 1;
   overflow: hidden;
 
   -webkit-transform: translateX(-50%);
@@ -119,7 +119,7 @@
   transform: rotateY(-180deg);
 }
 .book:hover {
-  transform: translateX(35%);
+  transform: translateX(45%);
   opacity: 0.9;
 }
 
