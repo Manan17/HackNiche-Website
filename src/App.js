@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Prizes from "./components/Prizes";
 import Domains from "./components/Domains";
+import Sponsors from "./components/Sponsors"
 function App() {
 
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       <Domains />
       <Footer/>
       <NavBar />
+      <Sponsors />
     </div>
   );
 }
