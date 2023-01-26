@@ -15,12 +15,15 @@
 .domain{
     border:2px solid #5ce7ec;
     color:#5ce7ec;
-    padding:60px;
+    padding:5em;
     height:100px;
+    font-size: 25px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    text-align: center;
     width: 100px;
 }
 

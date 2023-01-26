@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import Prizes from "./components/Prizes";
 import Domains from "./components/Domains";
 import Sponsors from "./components/Sponsors"
+import NewSponsors from "./components/NewSponsors";
 function App() {
 
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -19,7 +20,7 @@ function App() {
       <Timeline />
       <Prizes />
       <Domains />
-      <Sponsors />
+      <NewSponsors />
       <Footer/>
     </div>
   );

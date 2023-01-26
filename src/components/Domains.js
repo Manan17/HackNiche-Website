@@ -25,19 +25,19 @@ const Domains = () => {
                     <div>
                         <TfiWorld className="d-icon" size={70} />
                     </div>
-                    Webapp
+                    Web/App
                 </div>
                 <div className="domain">
                     <div>
                         <AiFillRobot className="d-icon" size={70} />
                     </div>
-                    AI ML
+                    Artificial Intelligence
                 </div>
                 <div className="domain">
                     <div>
                         <AiOutlineCloud className="d-icon" size={70} />
                     </div>
-                    Cloud Technology
+                    Cloud Computing
                 </div>
                 <div className="domain">
                     <div>
@@ -49,7 +49,7 @@ const Domains = () => {
                     <div>
                         <GiVintageRobot className="d-icon" size={70} />
                     </div>
-                    IOT
+                    IoT
                 </div>
                 
             </div>
