@@ -40,6 +40,10 @@ const HeroSection = ({ isMenuShown }) => {
                     } */}
 
                 </div>
+                <h1 className='text-3xl font-semibold pt-5'>17
+                <sup className='px-1'>th</sup>
+                -18<sup className='px-1'>th</sup> 
+                FEBRUARY</h1>
             </div>
 
         </div>
