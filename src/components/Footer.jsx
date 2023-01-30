@@ -7,7 +7,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div class="box">
+    <div class="box" id="contact_anchor">
     <footer>
     <hr   className='line'/>
         <div class="container1">

@@ -12,7 +12,7 @@ import taskcade from './assets/taskcade_logo.png'
 const NewSponsors = () => {
     return (
         <>
-            <div class="sponsor-body" id="sponsors_anchor">
+            <div class="sponsor-body" >
                 <div class="sponsor-header">
                     <h1>
                         <span data-aos="fade-right">SPON</span>
@@ -21,9 +21,7 @@ const NewSponsors = () => {
                 </div>
             </div>
 
-
-
-            <h2 className="text-center text-5xl p-2">Title Sponser</h2>
+            <h2 className="text-center text-5xl p-2" id="sponsors_anchor">Title Sponsor</h2>
 
             <h2 className="title ">Celo</h2>
             <div className="flex justify-center items-center pb-8">
@@ -46,7 +44,7 @@ const NewSponsors = () => {
                                         } 
                   `}
                                 >
-                                    GOLD PARTNERS
+                                    GOLD SPONSORS
                                 </button>
                             )}
                         </Tab>
@@ -196,7 +194,7 @@ const NewSponsors = () => {
                 </Tab.Group>
             </div>
 
-            <h2 className="text-center text-5xl p-2">Coffee Sponser</h2>
+            <h2 className="text-center text-5xl p-2">Coffee Sponsor</h2>
             <h2 className="title ">Sleepy Owl Coffee</h2>
             <div className="flex justify-center items-center pb-8">
                 <img src={sleepyowl} alt="sleepyowl logo" width="25%" height="15%" />
