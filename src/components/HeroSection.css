@@ -1,0 +1,6 @@
+@media (max-width: 770px) {
+  .logo-hack {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}

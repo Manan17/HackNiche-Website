@@ -20,6 +20,7 @@ function App() {
       <Timeline />
       <Prizes />
       <Domains />
+    
       <NewSponsors />
       <Footer/>
     </div>
