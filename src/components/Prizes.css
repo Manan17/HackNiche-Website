@@ -1,109 +1,107 @@
-.title{
-    text-align: center;
-   /* font-family: Montserrat,Helvetica,Arial,sans-serif;*/
-   /* font-family: "Bad-mofo"; */
-   font-family: "Bad-mofo";
-    font-size: 36px;
-    font-weight:300;
-    background-color: black;
-    color:white;
-    padding: 20px;
+.title {
+  text-align: center;
+  /* font-family: Montserrat,Helvetica,Arial,sans-serif;*/
+  /* font-family: "Bad-mofo"; */
+  font-family: "Bad-mofo";
+  font-size: 36px;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
 
-.p-container{
-    padding:40px;
+.p-container {
+  padding: 40px;
 }
 
-.container{
-    font-family: Inconsolata;
-    background-color: rgb(0, 0, 0);
-    height:500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding:5px;
+.container {
+  font-family: Inconsolata;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
 }
 
+.p-card {
+  border: 2px solid #5ce7ec;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 13rem;
+}
+.p-card:hover {
+  transform: scale(1.1);
+  -webkit-transition: transform 0.5s ease-in-out;
+  background-color: black;
+}
+.p-card-title {
+  font-size: 20px;
+  color: black;
+  background-color: #5ce7ec;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-.p-card{
-    border:2px solid #5ce7ec;
-    display: flex;
-    flex-direction: column;
-    margin:10px;
-    height: 13rem;
+.caption {
+  margin-top: 20px;
+  color: #5ce7ec;
+  padding: 20px;
 }
-.p-card:hover{
-    transform: scale(1.1);
-    -webkit-transition: transform 0.5s ease-in-out;
-}
-.p-card-title{
-    font-size:20px;
-    color:black;
-    background-color:#5ce7ec;
-    height:2rem;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.caption{
-    margin-top: 20px;
-    color:#5ce7ec;
-    padding:20px;
-}
-.money{
-    color:white;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin:10px;
-    font-size: 30px;
-    font-weight: 300;
+.money {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 @media (max-width: 480px) {
-    .container{
-        font-family: Inconsolata;
-        background-color: rgb(0, 0, 0);
-        height:500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .caption{
-        margin-top: 10px;
-        color:#5ce7ec;
-        padding:5px;
-    }
+  .container {
+    font-family: Inconsolata;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .caption {
+    margin-top: 10px;
+    color: #5ce7ec;
+    padding: 5px;
+  }
 }
 
 @media (max-width: 768px) {
-    .container{
-        font-family: Inconsolata;
-        background-color: rgb(0, 0, 0);
-        height:500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .container {
+    font-family: Inconsolata;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 992px) {
-    .container{
-        font-family: Inconsolata;
-        background-color: rgb(0, 0, 0);
-        height:500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .caption{
-        margin-top: -10px;
-        color:#5ce7ec;
-        padding:5px;
-    }
+  .container {
+    font-family: Inconsolata;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .caption {
+    margin-top: -10px;
+    color: #5ce7ec;
+    padding: 5px;
+  }
 }
-
