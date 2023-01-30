@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import gdscl from './assets/gdscl.png';
-import synl from './assets/synl.png';
+// import gdscl from './assets/gdscl.png';
+// import synl from './assets/synl.png';
 
 
 
@@ -18,8 +18,8 @@ const Footer = () => {
 
                       </h1>
                       <div class="logo">
-                        <img src={gdscl}  class="gd" />
-                        <img src={synl} />                        
+                        {/* <img src={gdscl}  class="gd" /> */}
+                        {/* <img src={synl} />                         */}
                         
                       
                       </div>

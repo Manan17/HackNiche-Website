@@ -10,8 +10,11 @@
     src: url("./BadMofo.ttf");
   }
   
+h1{
+  font-size: 50px;
+}
   .etimetitle{
-    color: white;
+    /* color: white;
     font-family: "Bad-mofo", sans-serif;
     font-size: 6rem;
     letter-spacing: 10px;
@@ -19,7 +22,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 30vh; */
+    text-align: center;
+   font-family: "Bad-mofo";
+    font-size: 50px;
+    font-weight:300;
+    background-color: black;
+    color:white;
+    padding: 20px;
   }
   /* body {
     background-color: #474e5d;
