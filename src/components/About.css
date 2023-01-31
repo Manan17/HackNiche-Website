@@ -28,7 +28,7 @@ html{
     position: absolute;
     left: 14vw;
     height: 10rem;
-    top: 90vw;
+    top: 95vw;
     margin: auto;
     z-index: 3;
     animation: planet 12s ease-in infinite alternate;
@@ -83,7 +83,7 @@ html{
     font-family: "Bad-mofo";
     font-size: 3rem;
     position: absolute;
-    top: 5vh;
+    top: 3vh;
     margin-bottom: 5rem;
   }
   
@@ -92,7 +92,9 @@ html{
     font-size: 1.1rem;
     margin: 10% 10%;
   }
-
+  .about-text ul{
+    list-style-type:square
+  }
   @media only screen and (max-width: 400px) {
     html {
       font-size: 7px;
@@ -138,7 +140,7 @@ html{
       font-size: 12px;
     }
     #planet{
-      top: 180vh;
+      top: 185vh;
     }
   }
 
