@@ -10,8 +10,8 @@
     src: url("./BadMofo.ttf");
   }
   
-h1{
-  font-size: 800px;
+.etimetitle h1{
+  font-size: 4rem;
 }
   .etimetitle{
     /* color: white;
@@ -24,7 +24,7 @@ h1{
     align-items: center;
     height: 30vh; */
     text-align: center;
-   font-family: "Bad-mofo";
+    font-family: "Bad-mofo";
     font-size: 50px;
     font-weight:300;
     background-color: black;
