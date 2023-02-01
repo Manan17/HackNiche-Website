@@ -39,7 +39,7 @@ const HeroSection = ({ isMenuShown }) => {
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
       >
         <img src={logo} className="h-3/4 w-1/4 logo-hack"></img>
-        <h1 className="text-4xl lg:text-5xl capitalize mb-12">
+        <h1 className="text-3xl lg:text-4xl capitalize mb-10">
           the <span className="text-thBlue font-bold">future</span> is here
         </h1>
 
