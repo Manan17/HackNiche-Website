@@ -33,7 +33,7 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold">HackNiche</h2>
+              <h2 className="text-3xl font-bold">HackNiche</h2>
             </a>
             <div className="md:hidden">
               <button
@@ -80,22 +80,40 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#about_anchor">About</a>
               </li>
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#timeline_anchor">Timeline</a>
               </li>
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#prizes_anchor"> Prizes</a>
               </li>
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#domain_anchor">Domains</a>
               </li>
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#sponsors_anchor">Sponsors</a>
               </li>
-              <li className="text-white hover:text-blue-600">
+              <li
+                onClick={() => setNavbar(!navbar)}
+                className="text-white hover:text-blue-600 text-xl"
+              >
                 <a href="#contact_anchor">Contact</a>
               </li>
             </ul>
