@@ -20,7 +20,7 @@
 // }
 
 // export default NavBar
-
+import { Link } from "react-scroll";
 import { useState } from "react";
 import "./NavBar.css";
 
@@ -81,40 +81,90 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#about_anchor">About</a>
+                <Link
+                  to="about_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  About
+                </Link>
               </li>
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#timeline_anchor">Timeline</a>
+                <Link
+                  to="timeline_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  Timeline
+                </Link>
               </li>
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#prizes_anchor"> Prizes</a>
+                <Link
+                  to="prizes_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
+                >
+                  {" "}
+                  Prizes
+                </Link>
               </li>
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#domain_anchor">Domains</a>
+                <Link
+                  to="domain_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  {" "}
+                  Domains
+                </Link>
               </li>
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#sponsors_anchor">Sponsors</a>
+                <Link
+                  to="sponsors_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={-250}
+                  duration={500}
+                >
+                  Sponsors
+                </Link>
               </li>
               <li
-                onClick={() => setNavbar(!navbar)}
+                // onClick={() => setNavbar(!navbar)}
                 className="text-white hover:text-blue-600 text-xl"
               >
-                <a href="#contact_anchor">Contact</a>
+                <Link
+                  to="contact_anchor"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
