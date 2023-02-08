@@ -62,7 +62,7 @@ function TimeLine() {
               <b>7:30-9:00AM</b>: Reporting of Teams+ Registration at college
             </p>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              <b>9:30-11:30AM</b>: Opening Ceremony
+              <b>9:30-11:30AM</b>: Opening Ceremony + Problem Statements Alloted
             </p>
             <p className="timeline_text" style={{fontSize: '14px'}}>
               <b>11:00AM</b>: Coding Round Begins
