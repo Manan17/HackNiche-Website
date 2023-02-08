@@ -41,12 +41,13 @@ import {
 
 function SponsorGroup(props) {
   return (
-    <Row justifyContent="center" alignItems="center">
+    <Row justifyContent="center" alignContent="center" alignItems="center">
       {props.map((s, key) => (
         <Col
           key={key}
           justifyContent="center"
           alignItems="center"
+          alignContent="center"
           sm={12}
           lg={4}
           md={6}

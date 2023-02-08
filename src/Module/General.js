@@ -334,7 +334,7 @@ const sponsorLogos = [
 ];
 
 const titlesponsorLogos = [
-  [{src: celo, link: 'https://celo.org/'}] //Array 1
+  [{ src: celo, link: 'https://celo.org/' }] //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -343,9 +343,9 @@ const titlesponsorLogos = [
 const goldsponsorLogos = [
   // [  ], //Array 1
   [
-    {src: taskade, link: 'https://www.taskade.com/'},
-    {src: echo3d, link: 'https://www.echo3d.co/'},
-    {src: digitalocean, link: 'https://www.digitalocean.com/'},
+    { src: taskade, link: 'https://www.taskade.com/' },
+    { src: echo3d, link: 'https://www.echo3d.co/' },
+    { src: digitalocean, link: 'https://www.digitalocean.com/' },
     {
       src: xyz,
       link: 'https://gen.xyz/'
@@ -357,13 +357,13 @@ const goldsponsorLogos = [
 
 const silversponsorLogos = [
   [
-    {src: echo3d, link: 'https://www.echo3d.co/'},
-    {src: wolfram, link: 'https://www.wolfram.com/'},
-    {src: interviewbuddy, link: 'https://interviewbuddy.in/'}
+    { src: echo3d, link: 'https://www.echo3d.co/' },
+    { src: wolfram, link: 'https://www.wolfram.com/' },
+    { src: interviewbuddy, link: 'https://interviewbuddy.in/' }
   ], //Array 1
   [
-    {src: alan, link: 'https://alan.app/'},
-    {src: shivam, link: '#'}
+    { src: alan, link: 'https://alan.app/' },
+    { src: shivam, link: '#' }
   ]
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
@@ -372,18 +372,18 @@ const silversponsorLogos = [
 
 const bronzeponsorLogos = [
   [
-    {src: replit, link: 'https://replit.com/'},
-    {src: certopus, link: 'https://certopus.com/'},
-    {src: taskade, link: 'https://www.taskade.com/'}
+    { src: replit, link: 'https://replit.com/' },
+    { src: certopus, link: 'https://certopus.com/' },
+    { src: taskade, link: 'https://www.taskade.com/' }
   ], //Array 1
   [
-    {src: koii, link: 'https://www.koii.network/'},
-    {src: postman, link: 'https://postman.com/'},
-    {src: prayosys, link: 'https://prayosys.com/'}
+    { src: koii, link: 'https://www.koii.network/' },
+    { src: postman, link: 'https://postman.com/' },
+    { src: prayosys, link: 'https://prayosys.com/' }
   ],
   [
-    {src: shivalika, link: '#'},
-    {src: cuvette, link: 'https://www.cuvette.tech/'}
+    { src: shivalika, link: '#' },
+    { src: cuvette, link: 'https://www.cuvette.tech/' }
   ]
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
@@ -392,17 +392,17 @@ const bronzeponsorLogos = [
 
 const FoodLogos = [
   [
-    {src: maruti, link: '#'},
-    {src: jay_bhavani, link: '#'},
-    {src: jay_maharaj, link: '#'}
+    { src: maruti, link: '#' },
+    { src: jay_bhavani, link: '#' },
+    { src: jay_maharaj, link: '#' }
   ]
 ];
 
 const designlogo = [
   [
-    {src: digilogo, link: 'https://www.instagram.com/digicosmic_studio/'},
-    {src: streamyard, link: 'https://streamyard.com/'},
-    {src: shutterbugs, link: 'https://www.instagram.com/shutterbugs_ddu/?hl=en'}
+    { src: digilogo, link: 'https://www.instagram.com/digicosmic_studio/' },
+    { src: streamyard, link: 'https://streamyard.com/' },
+    { src: shutterbugs, link: 'https://www.instagram.com/shutterbugs_ddu/?hl=en' }
   ]
 ];
 
