@@ -40,11 +40,11 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-rocket"></i>
             <div class="details">
-              <span class="title">PS Release</span>
+              <span class="title">Domain Preference Form Release</span>
               <span>16th FEB</span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              <b>6:00PM</b>: PS Release + form to fill Preferences
+              <b>6:00PM</b>:Form to fill Preferences
             </p>
             <p className="timeline_text" style={{fontSize: '14px'}}>
               <b>11:00PM</b>: Close the Form
