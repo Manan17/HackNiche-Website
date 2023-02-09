@@ -7,6 +7,8 @@ import alan from './Assets/sponsorsLogos/alan.png';
 import koii from './Assets/sponsorsLogos/koii.png';
 // import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from './Assets/sponsorsLogos/echo3d.png';
+import interviewbuddy from './Assets/sponsorsLogos/interview-buddy.png';
+import dessertino from './Assets/sponsorsLogos/dessertino.png'
 import streamyard from './Assets/sponsorsLogos/streamyard1.JPG';
 import wolfram from './Assets/sponsorsLogos/wolfram.jpg';
 import gfg from './Assets/sponsorsLogos/gfg.png';
@@ -18,7 +20,7 @@ import jay_maharaj from './Assets/sponsorsLogos/jay_maharaj.jpeg';
 import jay_bhavani from './Assets/sponsorsLogos/jay_bhavani.jpeg';
 import maruti from './Assets/sponsorsLogos/maruti.jpeg';
 import replit from './Assets/sponsorsLogos/replit.png';
-import interviewbuddy from './Assets/sponsorsLogos/ib.png';
+// import interviewbuddy from './Assets/sponsorsLogos/ib.png';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import cuvette from './Assets/sponsorsLogos/cuvette.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
@@ -344,8 +346,11 @@ const goldsponsorLogos = [
   // [  ], //Array 1
   [
     { src: taskade, link: 'https://www.taskade.com/' },
+    { src: wolfram, link: 'https://www.wolframalpha.com//' },
+    { src: dessertino, link: '' },
     { src: echo3d, link: 'https://www.echo3d.co/' },
     { src: digitalocean, link: 'https://www.digitalocean.com/' },
+    { src: interviewbuddy, link: 'https://interviewbuddy.in/' },
     {
       src: xyz,
       link: 'https://gen.xyz/'
@@ -359,7 +364,6 @@ const silversponsorLogos = [
   [
     { src: echo3d, link: 'https://www.echo3d.co/' },
     { src: wolfram, link: 'https://www.wolfram.com/' },
-    { src: interviewbuddy, link: 'https://interviewbuddy.in/' }
   ], //Array 1
   [
     { src: alan, link: 'https://alan.app/' },
