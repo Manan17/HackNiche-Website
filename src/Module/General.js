@@ -9,12 +9,14 @@ import koii from './Assets/sponsorsLogos/koii.png';
 import echo3d from './Assets/sponsorsLogos/echo3d.png';
 import interviewbuddy from './Assets/sponsorsLogos/interview-buddy.png';
 import dessertino from './Assets/sponsorsLogos/dessertino.png'
+import certificate from './Assets/sponsorsLogos/certificate.png';
 import streamyard from './Assets/sponsorsLogos/streamyard1.JPG';
 import wolfram from './Assets/sponsorsLogos/wolfram.jpg';
 import gfg from './Assets/sponsorsLogos/gfg.png';
 import certopus from './Assets/sponsorsLogos/certopus.png';
 import prayosys from './Assets/sponsorsLogos/prayosys.png';
 import shivalika from './Assets/sponsorsLogos/shivalika.JPG';
+import gdsclogo from './Assets/sponsorsLogos/gdsclogo.png'
 import shivam from './Assets/sponsorsLogos/shivam.JPG';
 import jay_maharaj from './Assets/sponsorsLogos/jay_maharaj.jpeg';
 import jay_bhavani from './Assets/sponsorsLogos/jay_bhavani.jpeg';
@@ -31,6 +33,7 @@ import xyz from './Assets/sponsorsLogos/xyz-logo-color.png';
 import me from './Assets/teami/Vashishth_Patel.jpg';
 import dharmesh from './Assets/teami/Dharmesh_Poriya.jpg';
 import Ryah from './Assets/teami/Ryah.jpg';
+import socoffee from './Assets/sponsorsLogos/socoffee.png'
 import nirali from './Assets/teami/Nirali.jpeg';
 import smit from './Assets/teami/smit.jpeg';
 import manav from './Assets/teami/manav.jpg';
@@ -342,6 +345,20 @@ const titlesponsorLogos = [
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
+const poweredBy = [
+  [{ src: socoffee, link: 'https://sleepyowl.co/' }] //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+];
+
+const communityPartner = [
+  [{ src: gdsclogo, link: 'https://developers.google.com/community/gdsc/leads/' }] //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+];
+
 const goldsponsorLogos = [
   // [  ], //Array 1
   [
@@ -350,6 +367,7 @@ const goldsponsorLogos = [
     { src: dessertino, link: '' },
     { src: echo3d, link: 'https://www.echo3d.co/' },
     { src: digitalocean, link: 'https://www.digitalocean.com/' },
+    { src: certificate, link: '' },
     { src: interviewbuddy, link: 'https://interviewbuddy.in/' },
     {
       src: xyz,
@@ -471,6 +489,8 @@ export {
   silversponsorLogos,
   bronzeponsorLogos,
   TeamInfo,
+  poweredBy,
+  communityPartner,
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,

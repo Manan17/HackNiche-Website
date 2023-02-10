@@ -30,6 +30,8 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   designlogo,
+  poweredBy,
+  communityPartner,
   titlesponsorLogos,
   bronzeponsorLogos,
   silversponsorLogos,
@@ -253,12 +255,21 @@ export default function HomePage(props) {
           <SponsorsHead />
           <h1 className="">Title Sponsors</h1>
           <br />
-          {titlesponsorLogos.map(SponsorGroup)}
+          {titlesponsorLogos?.map(SponsorGroup)}
+          <br />
+          <h1 className="">Powered By</h1>
+          <br />
+          {poweredBy?.map(SponsorGroup)}
           <br />
           <br />
           <h1 className="">Gold Sponsors</h1>
           <br />
-          {goldsponsorLogos.map(SponsorGroup)}
+          {goldsponsorLogos?.map(SponsorGroup)}
+          <br />
+          <br />
+          <h1 className="">Community Partner</h1>
+          <br />
+          {communityPartner?.map(SponsorGroup)}
           <br />
           <br />
         </Row>
