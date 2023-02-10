@@ -456,7 +456,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
+          'All you need is to register yourself on UnStop and join discord, we will guide you through everything there.'
       },
       {
         label: 'I have more questions?',
