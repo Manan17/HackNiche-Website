@@ -166,8 +166,18 @@ align-items: center;
 
   .sponsorSection {
     padding: 0;
-    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
     margin: 12rem auto;
+  }
+
+  .sponsor-edit{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
   }
 
   .logoSection {

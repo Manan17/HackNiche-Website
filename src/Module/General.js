@@ -11,6 +11,9 @@ import interviewbuddy from './Assets/sponsorsLogos/interview-buddy.png';
 import dessertino from './Assets/sponsorsLogos/dessertino.png'
 import certificate from './Assets/sponsorsLogos/certificate.png';
 import streamyard from './Assets/sponsorsLogos/streamyard1.JPG';
+import plum from './Assets/sponsorsLogos/plum.png'
+import coto from './Assets/sponsorsLogos/coto.png'
+import taali from './Assets/sponsorsLogos/taali.png'
 import wolfram from './Assets/sponsorsLogos/wolfram.jpg';
 import gfg from './Assets/sponsorsLogos/gfg.png';
 import certopus from './Assets/sponsorsLogos/certopus.png';
@@ -41,6 +44,7 @@ import manav from './Assets/teami/manav.jpg';
 import parshwa from './Assets/teami/Parshwa_Mehta.jpg';
 import ayush from './Assets/teami/Ayush_Rudani.jpg';
 import aneri from './Assets/teami/Aneri_Sonani.jpg';
+
 
 const TOP_SECTION = {
   TITLE: 'HackNiche',
@@ -352,6 +356,20 @@ const poweredBy = [
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
+const snackPartner = [
+  [{ src: taali, link: '' }] //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+];
+
+const techPartner = [
+  [{ src: coto, link: 'https://sleepyowl.co/' }] //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+];
+
 const communityPartner = [
   [{ src: gdsclogo, link: 'https://developers.google.com/community/gdsc/leads/' }] //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
@@ -369,6 +387,7 @@ const goldsponsorLogos = [
     { src: digitalocean, link: 'https://www.digitalocean.com/' },
     { src: certificate, link: '' },
     { src: interviewbuddy, link: 'https://interviewbuddy.in/' },
+    { src: plum, link: '' },
     {
       src: xyz,
       link: 'https://gen.xyz/'
@@ -490,6 +509,8 @@ export {
   bronzeponsorLogos,
   TeamInfo,
   poweredBy,
+  snackPartner,
+  techPartner,
   communityPartner,
   JudgesInfo,
   frequentlyAskedQuestions,

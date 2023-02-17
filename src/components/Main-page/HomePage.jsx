@@ -34,6 +34,8 @@ import {
   communityPartner,
   titlesponsorLogos,
   bronzeponsorLogos,
+  snackPartner,
+  techPartner,
   silversponsorLogos,
   goldsponsorLogos,
   FoodLogos
@@ -43,7 +45,12 @@ import {
 
 function SponsorGroup(props) {
   return (
-    <Row justifyContent="center" alignContent="center" alignItems="center">
+    <Row
+      className="sponsor-edit"
+      justifyContent="center"
+      alignContent="center"
+      alignItems="center"
+    >
       {props.map((s, key) => (
         <Col
           key={key}
@@ -265,6 +272,16 @@ export default function HomePage(props) {
           <h1 className="">Gold Sponsors</h1>
           <br />
           {goldsponsorLogos?.map(SponsorGroup)}
+          <br />
+          <br />
+          <h1 className="">Snack Partner</h1>
+          <br />
+          {snackPartner?.map(SponsorGroup)}
+          <br />
+          <br />
+          <h1 className="">Tech Partner</h1>
+          <br />
+          {techPartner?.map(SponsorGroup)}
           <br />
           <br />
           <h1 className="">Community Partner</h1>
