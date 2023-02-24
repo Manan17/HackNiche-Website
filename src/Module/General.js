@@ -10,12 +10,15 @@ import echo3d from './Assets/sponsorsLogos/echo3d.png';
 import interviewbuddy from './Assets/sponsorsLogos/interview-buddy.png';
 import dessertino from './Assets/sponsorsLogos/dessertino.png'
 import certificate from './Assets/sponsorsLogos/certificate.png';
+
 import streamyard from './Assets/sponsorsLogos/streamyard1.JPG';
 import plum from './Assets/sponsorsLogos/plum.png'
 import coto from './Assets/sponsorsLogos/coto.png'
+import grabon from './Assets/sponsorsLogos/grabon.png'
 import taali from './Assets/sponsorsLogos/taali.png'
 import wolfram from './Assets/sponsorsLogos/wolfram.jpg';
 import gfg from './Assets/sponsorsLogos/gfg.png';
+
 import certopus from './Assets/sponsorsLogos/certopus.png';
 import prayosys from './Assets/sponsorsLogos/prayosys.png';
 import shivalika from './Assets/sponsorsLogos/shivalika.JPG';
@@ -388,6 +391,8 @@ const goldsponsorLogos = [
     { src: certificate, link: '' },
     { src: interviewbuddy, link: 'https://interviewbuddy.in/' },
     { src: plum, link: '' },
+    { src: grabon, link: '' },
+
     {
       src: xyz,
       link: 'https://gen.xyz/'
