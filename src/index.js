@@ -1,9 +1,33 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import ReactDOM from 'react-dom';
+import NAV from "./components/navbar/App";
+import LOADER from './components/Loading/loading';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <App />
+// const rootElement = document.getElementById('body');
+// const footer = document.getElementById('footer');
+
+// ReactDOM.render(
+//   <React.Fragment>
+//     <CalenderContextProvider>
+//       <NAV />
+//     </CalenderContextProvider>
+//   </React.Fragment>,
+//   rootElement
+// );
+
+const rootElement = document.getElementById("body");
+const footer = document.getElementById("footer");
+
+ReactDOM.render(
+  <div>
+    <NAV />
+  </div>,
+  rootElement
+);
+
+ReactDOM.render(
+  <React.Fragment>
+    <LOADER />
+  </React.Fragment>,
+  footer
 );
