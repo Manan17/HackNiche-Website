@@ -391,7 +391,7 @@ const goldsponsorLogos = [
     { src: certificate, link: '' },
     { src: interviewbuddy, link: 'https://interviewbuddy.in/' },
     { src: plum, link: '' },
-    { src: grabon, link: '' },
+    { src: grabon, link: 'https://www.grabon.in/' },
 
     {
       src: xyz,
